@@ -11,6 +11,7 @@ module.exports = {
         'imagecard01' : "url('../public/images/cardimage (1).jpg')",
         'imagecard02' : "url('../public/images/cardimage (2).jpg')",
         'imagecard03' : "url('../public/images/cardimage (3).jpg')",
+        'liquid-testimonoial' : "url('../public/images/liquidtestimoni.png')"
       },
       colors:{
         "primary" : '#5D50C6',
