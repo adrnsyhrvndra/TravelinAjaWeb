@@ -622,6 +622,10 @@ html{
   top: 50%;
 }
 
+.top-0 {
+  top: 0px;
+}
+
 .order-1 {
   order: 1;
 }
@@ -649,6 +653,10 @@ html{
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.ml-auto {
+  margin-left: auto;
 }
 
 .mt-10 {
@@ -735,8 +743,16 @@ html{
   width: 66.666667%;
 }
 
+.w-\[95\%\] {
+  width: 95%;
+}
+
 .w-full {
   width: 100%;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .-translate-x-1\/2 {
@@ -811,6 +827,14 @@ html{
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-9 {
+  gap: 2.25rem;
 }
 
 .gap-y-8 {
@@ -892,7 +916,15 @@ html{
 }
 
 .bg-imagecard01 {
-  background-image: url('../public/images/cardimage (1).jpg');
+  background-image: url('https://img.freepik.com/free-photo/pileh-blue-lagoon-phi-phi-island-thailand_231208-1487.jpg?size=626&ext=jpg&uid=R98555176&ga=GA1.2.374370474.1690864422&semt=ais');
+}
+
+.bg-imagecard02 {
+  background-image: url('https://img.freepik.com/free-photo/pura-taman-ayun-temple-bali-indonesia_335224-392.jpg?w=1380&t=st=1704624420~exp=1704625020~hmac=ba75f2350674a8fbd05d528bca081d6215dafc78711302f69ed37187db7388c8');
+}
+
+.bg-imagecard03 {
+  background-image: url('https://img.freepik.com/free-photo/woman-walking-railay-beach-krabi-thailand_335224-1206.jpg?size=626&ext=jpg&uid=R98555176&ga=GA1.2.374370474.1690864422&semt=ais');
 }
 
 .bg-none {
@@ -1060,6 +1092,10 @@ html{
   font-weight: 400;
 }
 
+.font-black {
+  font-weight: 900;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -1092,6 +1128,14 @@ html{
   letter-spacing: 0.1em;
 }
 
+.tracking-wide {
+  letter-spacing: 0.025em;
+}
+
+.tracking-normal {
+  letter-spacing: 0em;
+}
+
 .text-gray-400 {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
@@ -1105,11 +1149,6 @@ html{
 .text-gray-600 {
   --tw-text-opacity: 1;
   color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
-.text-orange {
-  --tw-text-opacity: 1;
-  color: rgb(255 87 34 / var(--tw-text-opacity));
 }
 
 .text-primary {
@@ -1152,8 +1191,24 @@ html{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.underline {
+  text-decoration-line: underline;
+}
+
 .opacity-75 {
   opacity: 0.75;
+}
+
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-50 {
+  opacity: 0.5;
+}
+
+.opacity-40 {
+  opacity: 0.4;
 }
 
 .shadow-button-explore-the-world {
@@ -1211,6 +1266,20 @@ html{
 .placeholder\:text-slate-700::placeholder {
   --tw-text-opacity: 1;
   color: rgb(51 65 85 / var(--tw-text-opacity));
+}
+
+.focus\:border:focus {
+  border-width: 1px;
+}
+
+.focus\:border-blue-500:focus {
+  --tw-border-opacity: 1;
+  border-color: rgb(59 130 246 / var(--tw-border-opacity));
+}
+
+.focus\:bg-primary:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(54 118 216 / var(--tw-bg-opacity));
 }
 
 @media (min-width: 640px) {
@@ -1550,10 +1619,6 @@ html{
     width: 100%;
   }
 
-  .lg\:w-16 {
-    width: 4rem;
-  }
-
   .lg\:scale-\[2\.5\] {
     --tw-scale-x: 2.5;
     --tw-scale-y: 2.5;
@@ -1694,6 +1759,11 @@ html{
     line-height: 1.25rem;
   }
 
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
   .lg\:leading-loose {
     line-height: 2;
   }
@@ -1795,10 +1865,6 @@ html{
 }
 
 @media (min-width: 1920px) {
-  .min-\[1920px\]\:mb-4 {
-    margin-bottom: 1rem;
-  }
-
   .min-\[1920px\]\:w-10 {
     width: 2.5rem;
   }
@@ -1820,6 +1886,11 @@ html{
   .min-\[1920px\]\:text-8xl {
     font-size: 6rem;
     line-height: 1;
+  }
+
+  .min-\[1920px\]\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 
   .min-\[1920px\]\:leading-relaxed {

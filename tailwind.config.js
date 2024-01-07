@@ -8,9 +8,9 @@ module.exports = {
         'circular-std' : ['Circular Std', 'sans-serif']
       },
       backgroundImage: {
-        'imagecard01' : "url('../public/images/cardimage (1).jpg')",
-        'imagecard02' : "url('../public/images/cardimage (2).jpg')",
-        'imagecard03' : "url('../public/images/cardimage (3).jpg')",
+        'imagecard01' : "url('https://img.freepik.com/free-photo/pileh-blue-lagoon-phi-phi-island-thailand_231208-1487.jpg?size=626&ext=jpg&uid=R98555176&ga=GA1.2.374370474.1690864422&semt=ais')",
+        'imagecard02' : "url('https://img.freepik.com/free-photo/pura-taman-ayun-temple-bali-indonesia_335224-392.jpg?w=1380&t=st=1704624420~exp=1704625020~hmac=ba75f2350674a8fbd05d528bca081d6215dafc78711302f69ed37187db7388c8')",
+        'imagecard03' : "url('https://img.freepik.com/free-photo/woman-walking-railay-beach-krabi-thailand_335224-1206.jpg?size=626&ext=jpg&uid=R98555176&ga=GA1.2.374370474.1690864422&semt=ais')",
         'liquid-testimonoial' : "url('../public/images/liquidtestimoni.png')"
       },
       colors:{
