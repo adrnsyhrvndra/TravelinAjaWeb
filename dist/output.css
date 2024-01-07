@@ -602,6 +602,30 @@ html{
   position: relative;
 }
 
+.-bottom-32 {
+  bottom: -8rem;
+}
+
+.-left-11 {
+  left: -2.75rem;
+}
+
+.-left-4 {
+  left: -1rem;
+}
+
+.-right-14 {
+  right: -3.5rem;
+}
+
+.-top-14 {
+  top: -3.5rem;
+}
+
+.-top-3 {
+  top: -0.75rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -618,164 +642,16 @@ html{
   left: 4rem;
 }
 
-.top-1\/2 {
-  top: 50%;
-}
-
-.left-0 {
-  left: 0px;
-}
-
-.top-0 {
-  top: 0px;
-}
-
-.-left-10 {
-  left: -2.5rem;
-}
-
-.-top-10 {
-  top: -2.5rem;
-}
-
-.-top-14 {
-  top: -3.5rem;
-}
-
-.-left-11 {
-  left: -2.75rem;
-}
-
-.-right-11 {
-  right: -2.75rem;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.-right-36 {
-  right: -9rem;
-}
-
-.-top-72 {
-  top: -18rem;
-}
-
-.-right-80 {
-  right: -20rem;
-}
-
-.-right-96 {
-  right: -24rem;
-}
-
-.-top-80 {
-  top: -20rem;
-}
-
-.-top-96 {
-  top: -24rem;
-}
-
-.top-\[-102rem\] {
-  top: -102rem;
-}
-
-.top-\[-13rem\] {
-  top: -13rem;
-}
-
-.top-\[-40rem\] {
-  top: -40rem;
-}
-
-.top-\[-30rem\] {
-  top: -30rem;
-}
-
-.top-\[-26rem\] {
-  top: -26rem;
-}
-
-.right-\[90rem\] {
-  right: 90rem;
-}
-
-.right-\[-90rem\] {
-  right: -90rem;
-}
-
-.right-\[-30rem\] {
-  right: -30rem;
-}
-
-.right-\[-60rem\] {
-  right: -60rem;
-}
-
-.right-\[-50rem\] {
-  right: -50rem;
-}
-
 .right-\[-45rem\] {
   right: -45rem;
 }
 
-.-bottom-0 {
-  bottom: -0px;
+.top-1\/2 {
+  top: 50%;
 }
 
-.-bottom-20 {
-  bottom: -5rem;
-}
-
-.-bottom-24 {
-  bottom: -6rem;
-}
-
-.-bottom-28 {
-  bottom: -7rem;
-}
-
-.-right-10 {
-  right: -2.5rem;
-}
-
-.-right-20 {
-  right: -5rem;
-}
-
-.-bottom-32 {
-  bottom: -8rem;
-}
-
-.-right-16 {
-  right: -4rem;
-}
-
-.-right-14 {
-  right: -3.5rem;
-}
-
-.top-10 {
-  top: 2.5rem;
-}
-
-.-top-6 {
-  top: -1.5rem;
-}
-
-.-left-8 {
-  left: -2rem;
-}
-
-.-left-4 {
-  left: -1rem;
-}
-
-.-top-3 {
-  top: -0.75rem;
+.top-\[-26rem\] {
+  top: -26rem;
 }
 
 .-z-50 {
@@ -875,16 +751,24 @@ html{
   width: 6rem;
 }
 
+.w-28 {
+  width: 7rem;
+}
+
 .w-3\/4 {
   width: 75%;
 }
 
-.w-36 {
-  width: 9rem;
+.w-4 {
+  width: 1rem;
 }
 
 .w-44 {
   width: 11rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .w-6 {
@@ -899,68 +783,20 @@ html{
   width: 66.666667%;
 }
 
-.w-\[95\%\] {
-  width: 95%;
-}
-
-.w-full {
-  width: 100%;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
 .w-9 {
   width: 2.25rem;
-}
-
-.w-96 {
-  width: 24rem;
-}
-
-.w-\[35rem\] {
-  width: 35rem;
-}
-
-.w-\[90rem\] {
-  width: 90rem;
-}
-
-.w-\[80rem\] {
-  width: 80rem;
 }
 
 .w-\[70rem\] {
   width: 70rem;
 }
 
-.w-60 {
-  width: 15rem;
+.w-\[95\%\] {
+  width: 95%;
 }
 
-.w-40 {
-  width: 10rem;
-}
-
-.w-48 {
-  width: 12rem;
-}
-
-.w-11 {
-  width: 2.75rem;
-}
-
-.w-20 {
-  width: 5rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-.w-28 {
-  width: 7rem;
+.w-full {
+  width: 100%;
 }
 
 .flex-1 {
@@ -1119,31 +955,6 @@ html{
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
-.bg-green-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(34 197 94 / var(--tw-bg-opacity));
-}
-
-.bg-red-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(185 28 28 / var(--tw-bg-opacity));
-}
-
-.bg-green-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(22 163 74 / var(--tw-bg-opacity));
-}
-
-.bg-green-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
-}
-
 .bg-imagecard01 {
   background-image: url('https://img.freepik.com/free-photo/pileh-blue-lagoon-phi-phi-island-thailand_231208-1487.jpg?size=626&ext=jpg&uid=R98555176&ga=GA1.2.374370474.1690864422&semt=ais');
 }
@@ -1178,9 +989,9 @@ html{
   padding-right: 4rem;
 }
 
-.px-24 {
-  padding-left: 6rem;
-  padding-right: 6rem;
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .px-4 {
@@ -1236,16 +1047,6 @@ html{
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.px-36 {
-  padding-left: 9rem;
-  padding-right: 9rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
 }
 
 .text-center {
@@ -1612,10 +1413,6 @@ html{
     width: 45%;
   }
 
-  .md\:w-\[80\%\] {
-    width: 80%;
-  }
-
   .md\:scale-125 {
     --tw-scale-x: 1.25;
     --tw-scale-y: 1.25;
@@ -1763,10 +1560,6 @@ html{
     margin-top: 2.5rem;
   }
 
-  .lg\:mt-16 {
-    margin-top: 4rem;
-  }
-
   .lg\:mt-2 {
     margin-top: 0.5rem;
   }
@@ -1809,6 +1602,10 @@ html{
 
   .lg\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .lg\:w-\[80\%\] {
+    width: 80%;
   }
 
   .lg\:w-\[95\%\] {
@@ -1982,47 +1779,226 @@ html{
 }
 
 @media (min-width: 1280px) {
+  .xl\:-bottom-14 {
+    bottom: -3.5rem;
+  }
+
+  .xl\:-right-14 {
+    right: -3.5rem;
+  }
+
   .xl\:top-4 {
     top: 1rem;
+  }
+
+  .xl\:-left-14 {
+    left: -3.5rem;
+  }
+
+  .xl\:-left-4 {
+    left: -1rem;
+  }
+
+  .xl\:-left-2 {
+    left: -0.5rem;
+  }
+
+  .xl\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .xl\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .xl\:mt-2 {
     margin-top: 0.5rem;
   }
 
+  .xl\:mt-4 {
+    margin-top: 1rem;
+  }
+
   .xl\:hidden {
     display: none;
   }
 
-  .xl\:w-5\/6 {
-    width: 83.333333%;
+  .xl\:w-12 {
+    width: 3rem;
+  }
+
+  .xl\:w-36 {
+    width: 9rem;
+  }
+
+  .xl\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .xl\:w-6 {
+    width: 1.5rem;
+  }
+
+  .xl\:gap-4 {
+    gap: 1rem;
+  }
+
+  .xl\:self-center {
+    align-self: center;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .xl\:leading-loose {
+    line-height: 2;
+  }
+
+  .xl\:leading-relaxed {
+    line-height: 1.625;
   }
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:-bottom-36 {
+    bottom: -9rem;
+  }
+
+  .\32xl\:-right-6 {
+    right: -1.5rem;
+  }
+
   .\32xl\:left-28 {
     left: 7rem;
+  }
+
+  .\32xl\:-mr-40 {
+    margin-right: -10rem;
+  }
+
+  .\32xl\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
+  .\32xl\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .\32xl\:mt-14 {
+    margin-top: 3.5rem;
+  }
+
+  .\32xl\:mt-36 {
+    margin-top: 9rem;
+  }
+
+  .\32xl\:mt-4 {
+    margin-top: 1rem;
+  }
+
+  .\32xl\:mt-40 {
+    margin-top: 10rem;
+  }
+
+  .\32xl\:mt-6 {
+    margin-top: 1.5rem;
   }
 
   .\32xl\:h-96 {
     height: 24rem;
   }
 
+  .\32xl\:h-12 {
+    height: 3rem;
+  }
+
+  .\32xl\:h-10 {
+    height: 2.5rem;
+  }
+
+  .\32xl\:h-11 {
+    height: 2.75rem;
+  }
+
   .\32xl\:w-1\/3 {
     width: 33.333333%;
+  }
+
+  .\32xl\:w-10 {
+    width: 2.5rem;
+  }
+
+  .\32xl\:w-16 {
+    width: 4rem;
+  }
+
+  .\32xl\:w-28 {
+    width: 7rem;
+  }
+
+  .\32xl\:w-48 {
+    width: 12rem;
+  }
+
+  .\32xl\:w-56 {
+    width: 14rem;
+  }
+
+  .\32xl\:w-8 {
+    width: 2rem;
+  }
+
+  .\32xl\:w-\[75\%\] {
+    width: 75%;
   }
 
   .\32xl\:gap-6 {
     gap: 1.5rem;
   }
 
-  .\32xl\:px-52 {
-    padding-left: 13rem;
-    padding-right: 13rem;
+  .\32xl\:gap-8 {
+    gap: 2rem;
   }
 
-  .\32xl\:pl-36 {
-    padding-left: 9rem;
+  .\32xl\:p-10 {
+    padding: 2.5rem;
+  }
+
+  .\32xl\:px-44 {
+    padding-left: 11rem;
+    padding-right: 11rem;
   }
 
   .\32xl\:pr-10 {
@@ -2039,19 +2015,37 @@ html{
     line-height: 2.25rem;
   }
 
+  .\32xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .\32xl\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .\32xl\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
   }
 
-  .\32xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
   .\32xl\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .\32xl\:leading-loose {
+    line-height: 2;
+  }
+
+  .\32xl\:leading-relaxed {
+    line-height: 1.625;
   }
 
   .\32xl\:leading-tight {
@@ -2060,17 +2054,78 @@ html{
 }
 
 @media (min-width: 1920px) {
+  .min-\[1920px\]\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .min-\[1920px\]\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .min-\[1920px\]\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
   .min-\[1920px\]\:w-10 {
     width: 2.5rem;
+  }
+
+  .min-\[1920px\]\:w-16 {
+    width: 4rem;
+  }
+
+  .min-\[1920px\]\:w-12 {
+    width: 3rem;
+  }
+
+  .min-\[1920px\]\:w-60 {
+    width: 15rem;
+  }
+
+  .min-\[1920px\]\:justify-between {
+    justify-content: space-between;
   }
 
   .min-\[1920px\]\:gap-0 {
     gap: 0px;
   }
 
+  .min-\[1920px\]\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .min-\[1920px\]\:gap-4 {
+    gap: 1rem;
+  }
+
+  .min-\[1920px\]\:gap-16 {
+    gap: 4rem;
+  }
+
+  .min-\[1920px\]\:gap-24 {
+    gap: 6rem;
+  }
+
+  .min-\[1920px\]\:gap-20 {
+    gap: 5rem;
+  }
+
+  .min-\[1920px\]\:p-16 {
+    padding: 4rem;
+  }
+
+  .min-\[1920px\]\:p-14 {
+    padding: 3.5rem;
+  }
+
   .min-\[1920px\]\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .min-\[1920px\]\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .min-\[1920px\]\:text-2xl {
@@ -2083,7 +2138,62 @@ html{
     line-height: 1;
   }
 
+  .min-\[1920px\]\:text-9xl {
+    font-size: 8rem;
+    line-height: 1;
+  }
+
+  .min-\[1920px\]\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .min-\[1920px\]\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .min-\[1920px\]\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .min-\[1920px\]\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .min-\[1920px\]\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .min-\[1920px\]\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
   .min-\[1920px\]\:leading-relaxed {
     line-height: 1.625;
+  }
+
+  .min-\[1920px\]\:leading-normal {
+    line-height: 1.5;
+  }
+
+  .min-\[1920px\]\:leading-snug {
+    line-height: 1.375;
+  }
+
+  .min-\[1920px\]\:leading-tight {
+    line-height: 1.25;
+  }
+
+  .min-\[1920px\]\:leading-none {
+    line-height: 1;
+  }
+
+  .min-\[1920px\]\:leading-loose {
+    line-height: 2;
   }
 }
