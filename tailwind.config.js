@@ -14,8 +14,8 @@ module.exports = {
         'liquid-testimonoial' : "url('../public/images/liquidtestimoni.png')"
       },
       colors:{
-        "primary" : '#5D50C6',
-        "secondary" : '#F85E9F',
+        "primary" : '#3676D8',
+        "secondary" : '#22ADFB',
         "yellow" : '#FACD49',
         "orange" : "#FF5722",
         'cream-newsletter' : 'rgba(250, 205, 73, 0.08)'
